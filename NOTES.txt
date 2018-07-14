@@ -1,0 +1,14 @@
+//+------------------------------------------------------------------+
+//|                                                      ProjectName |
+//|                                      Copyright 2012, CompanyName |
+//|                                       http://www.companyname.net |
+//+------------------------------------------------------------------+
+Notes for TimeBasedRSI.mq5
+//+------------------------------------------------------------------+
+   *Define new functions
+   *Volume based risk indication,check the current balance and make a trading decision regarding volume size
+      -Based on balance a 500-1000 negative pip drop shouw affect the drawdown at a minimal,this includes stop-outs etc.
+//+------------------------------------------------------------------+
+   *Inform the user of the position opend via the SendMail() function.
+      -Balance, Equity, Target, Projected drawdown, Projected target and symbol.[more my be included]
+ 
